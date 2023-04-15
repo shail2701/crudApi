@@ -2,7 +2,6 @@ const User = require('../../models/userModel');
 
 const createUsers = async(req,res,next) => {
     try{
-        console.log('in create');
         const name = req.body.name;
         const username = req.body.username;
         const email = req.body.email;
